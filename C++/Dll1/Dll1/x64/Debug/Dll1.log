@@ -1,0 +1,8 @@
+﻿  pch.cpp
+  dllmain.cpp
+  funtest.cpp
+D:\Prac\c++\Dll1\Dll1\funtest.cpp(9,1): warning C4273: 'add': inconsistent dll linkage
+D:\Prac\c++\Dll1\Dll1\funtest.h(8,28): message : see previous definition of 'add'
+  Generating Code...
+     Creating library D:\Prac\c++\Dll1\x64\Debug\funtest.lib and object D:\Prac\c++\Dll1\x64\Debug\funtest.exp
+  Dll1.vcxproj -> D:\Prac\c++\Dll1\x64\Debug\funtest.dll

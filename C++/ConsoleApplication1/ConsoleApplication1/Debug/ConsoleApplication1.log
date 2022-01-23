@@ -1,0 +1,4 @@
+﻿  ConsoleApplication1.cpp
+ConsoleApplication1.obj : error LNK2019: unresolved external symbol __imp__add referenced in function _main
+D:\Prac\c++\ConsoleApplication1\funtest.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+D:\Prac\c++\ConsoleApplication1\Debug\ConsoleApplication1.exe : fatal error LNK1120: 1 unresolved externals
