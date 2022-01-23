@@ -1,5 +1,6 @@
 # Microsoft Visual Studio C++ and C#
-Dynamic Link Library 
+
+	C++ Dynamic Link Library 
 	
 	Create Dynamic Link Library Project
 	
@@ -32,3 +33,18 @@ Dynamic Link Library
 
 			return (a + b);
 		}
+
+        Create console application
+	
+	#include <iostream>
+	#include "funtest.h"
+	int main()
+	{
+	    std::cout << "Hello World!\n";
+
+	    std::cout << add(5, 7);
+	}
+	
+	![image](https://user-images.githubusercontent.com/72020402/150664646-ccc2275e-acb8-4f21-9ba8-82afde3df666.png)
+
+
