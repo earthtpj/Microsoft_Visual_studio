@@ -36,4 +36,7 @@
 	
 
 
-	
+
+# C# Dynamic Link Library 
+
+	Create Class library project
