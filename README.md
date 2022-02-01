@@ -18,14 +18,14 @@
 	[2] Create main.c file
 	[3] build the project 
 	Header File
->>>>>>> 9e593cb4e9d7dcd8a8b211ef5a782741020f7c64
+
 		#pragma once
 		#ifdef FUNTEST_EXPORTS
 		#define FUNTEST_API __declspec(dllexport)
 		#else
 		#define FUNTEST_API __declspec(dllimport)
 		#endif
-<<<<<<< HEAD
+
 
 		extern "C" FUNTEST_API int add(int a, int b);
 =======
@@ -115,4 +115,3 @@
 
 	
 
->>>>>>> 9e593cb4e9d7dcd8a8b211ef5a782741020f7c64
