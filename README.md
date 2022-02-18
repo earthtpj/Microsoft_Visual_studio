@@ -1,6 +1,5 @@
 # Microsoft Visual Studio C++ and C#
 
-<<<<<<< HEAD
 	Dynamic Link Library 
 	
 	Create Dynamic Link Library Project
@@ -18,18 +17,16 @@
 	[2] Create main.c file
 	[3] build the project 
 	Header File
->>>>>>> 9e593cb4e9d7dcd8a8b211ef5a782741020f7c64
+
 		#pragma once
 		#ifdef FUNTEST_EXPORTS
 		#define FUNTEST_API __declspec(dllexport)
 		#else
 		#define FUNTEST_API __declspec(dllimport)
 		#endif
-<<<<<<< HEAD
 
 		extern "C" FUNTEST_API int add(int a, int b);
-=======
-		extern "C" FUNTEST_API int add(int a, int b);
+
 	Main File
 		#include "pch.h" // use stdafx.h in Visual Studio 2017 and earlier
 		#include <utility>
@@ -49,11 +46,6 @@
 		    std::cout << add(5, 7);
 		}
 	Copy funtest.h(Header file) and funtest (object library file)  from dll project and paste in console project lib folder
-	
-	
-
-
-
 # C# Dynamic Link Library 
 
 	Create Class library project
@@ -115,4 +107,3 @@
 
 	
 
->>>>>>> 9e593cb4e9d7dcd8a8b211ef5a782741020f7c64
